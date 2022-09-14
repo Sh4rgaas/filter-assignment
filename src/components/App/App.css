@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+background-color: antiquewhite;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title{
+  margin: 10px;
+} 
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.label {
+  margin: 10px;
+}
+
+input {
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 35%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  margin-top: 20px; 
+  background-color: white;
+}
+
+.results-container{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+#main-table{
+  margin-top: 20px; 
+  box-shadow: 2px 20px 20px grey;
+  border-radius: 50px;
+}
+
+table {
+  word-wrap: break-word;
+  text-align: center;
+  border-radius: 20px;
+  border-collapse: collapse;
+  padding-left: 50px; 
+}
+
+.table-header{
+  border-radius: 20px;
+  background-color: rgb(61, 169, 236);
+}
+
+#table2, #table3 {
+  table-layout: fixed;
+  width: 100%;
+  background-color:rgb(61, 169, 236);
+  color: black;
+}
+
+#inner-table{
+  table-layout: fixed;
+  width: 100%;
+  color: black;
+}
+
+thead{
+  background-color: rgb(61, 169, 236);
+}
+
+#row-data:nth-child(even){
+  background-color: lightgray;
+}
+
+#row-data:nth-child(odd){
+  background-color: ghostwhite;
+}
+
+th {
+  padding: 5px;
+  text-decoration: underline;
+  color:ivory;
+  background-color: rgb(61, 169, 236);
+}
+
+#id-column {
+  padding: 20px;
+}
