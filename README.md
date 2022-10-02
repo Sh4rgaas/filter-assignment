@@ -1,4 +1,4 @@
-# Filter Assignment - Guy Chelouche
+# Filter Table - Guy Chelouche
 
 ### To Run this repo locally :
 
