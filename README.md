@@ -6,6 +6,3 @@
 
 ### Stack & Packages:
 - `create-react-app` React for the UI (with hooks)
-
-## Some Final Words...
-It was a challenging task, I enjoyed it a lot so thank you!
